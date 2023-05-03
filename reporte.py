@@ -39,7 +39,7 @@ def Exportdocx(Responder):
 
     ##################### DOCX #########################
     # LOAD THE DOCX DOCUMENT TO USE AS A TEMPLATE, THIS DOCUMENT HAS "HEADING" 1 TO 9 DEFINED, HEADER AND FOOTER AS WELL
-    doc = docx.Document('plantilla.docx')
+    doc = docx.Document('plantilla_bkp.docx')
     # LOAD THE STYLE FOR THE TABLES
     tableStyle = doc.styles["Table Grid Light"]
     
